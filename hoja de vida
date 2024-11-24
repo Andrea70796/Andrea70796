@@ -1,0 +1,147 @@
+\documentclass[]{twentysecondcv}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%
+%%PROFILE SIDE BAR%%
+%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%
+%%PERSONAL INFO%%%
+%%%%%%%%%%%%%%%%
+
+\profilepic{perfil2.jpeg} %path of profile pic
+\cvname{Andrea sibri} %your name
+\cvjobtitle{Aserca de mi}%your actual job position
+\cvdate{15-04-2007}%date of birth
+\cvaddress{}%address
+\cvnumberphone{+593 967336671}%telphone number
+\cvmail{sibriandrea37@gmail.com}%e-mail
+\cvsite{}%personal site
+
+
+\aboutme{
+
+soy una estudiante bachiller que estudia en el colegio tecnico Ricaurte en la especialidad de mecatronica tengo conocimiento de circuito en protoboar entre otros .}%About me section
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%Skill bar section, each skill must have a value between 0 an 6 (float)%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\skills{{respetuosa/5},{paciencia/4},{buenos modales/4.7},{/4},{/0.01}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%Skill text section, each skill must have a value between 0 an 6%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\skillstext{{/},{/3}}
+
+\makeprofile
+%%%%%%%%%%%%%%%%%%%%
+%%END PROFILE SIDE BAR%%
+%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%BODY%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%
+%%SIMPLE SECTION%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+\section{intencion}
+ graduarme y estudiar una carrera en la universidad
+
+\section{educacion}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%TWENTY LIST ITEMS%%%%%%%%%%%%%%
+%%    Four arguments: date; title; where; description %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{twenty}
+  \twentyitem
+    {2013-2022}
+    {EST.. {\normalfont ciencias bacicas}}
+    {}
+    {\emph{}}
+  \twentyitem
+    {2022-2023}
+    {.ESt.MCT primero de bachillerato conexiones en protoboar,leds etc... }
+    {}
+    {}
+  \twentyitem
+    {2023-2024}
+    {EST,MCTc. segundo de bachillerato}
+    {}
+    {thonny python}
+  \twentyitem
+    {2024-2025}
+    {EST.MCT tercero de bachillerato}
+    {}
+    {redes inalambricas}
+\end{twenty}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%TWENTY LIST SHORTITEMS%%%%%%%%%%%%%%
+%%% Two arguments: date; title/description %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{publicaciones}
+
+\begin{twentyshort}
+  \twentyitemshort
+    {24-11-2024}
+    {github hoja de vida.}
+  \twentyitemshort
+    {}
+    {}
+  \twentyitemshort
+    {}
+    {}
+  \twentyitemshort
+    {}
+    {}
+  \twentyitemshort
+    {}
+    {}
+\end{twentyshort}
+
+
+
+\section{insignia}
+
+\begin{twentyshort}
+  \twentyitemshort
+    {1-11-2024}
+    {netacad}
+  \twentyitemshort
+    {}
+    {}
+\end{twentyshort}
+
+
+\section{ Experiencia simuladores}
+
+\begin{twenty}
+  \twentyitem
+    {2023}
+    {simunador wokwi.}
+    {ESP 32}
+    {}
+  \twentyitem
+    {2024}
+    {VEX CORE}
+    {laberinto}
+    {}
+\twentyitem
+    {2024}
+    {GitHub}
+    {codigos}
+    {}
+
+\end{twenty}
+\section{Otra informacion}
+me gusta llevarmre bien con todos , tengo conocimiento de redes inalambricas en el cimulador cisco packet tracer , Tambien estoy realizando un curso de 30 horas
+
+%%%%%%%%%%%%%%%%%%%%
+%%%%%ENDBODY%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+
+\end{document} 
